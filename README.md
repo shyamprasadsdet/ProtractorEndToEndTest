@@ -44,7 +44,7 @@ Framework supports Typescript and javascript. all the tools which are need to in
 3. Ensure that your IE browser zoom level is 100%
 
 
-## TFS/ Azure DevOps integration Help
+## TFS/ Azure DevOps integration with Protractor end to end test Help
 1. Create a task for npm install
 ![
 ](https://c1.staticflickr.com/2/1861/43978746924_8f61810295_b.jpg)
