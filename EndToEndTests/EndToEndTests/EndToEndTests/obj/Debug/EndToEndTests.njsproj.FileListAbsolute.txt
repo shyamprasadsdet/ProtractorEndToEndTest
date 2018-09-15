@@ -1,0 +1,3 @@
+C:\IKEA\Source\EndToEndTests\EndToEndTests\EndToEndTests\obj\Debug\EndToEndTests.njsprojAssemblyReference.cache
+C:\IKEA\Source\EndToEndTests\EndToEndTests\EndToEndTests\obj\Debug\EndToEndTests.njsproj.CoreCompileInputs.cache
+C:\IKEA\Source\EndToEndTests\EndToEndTests\EndToEndTests\bin\Microsoft.NodejsTools.WebRole.dll

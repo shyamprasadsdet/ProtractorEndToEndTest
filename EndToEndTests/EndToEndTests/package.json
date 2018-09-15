@@ -10,7 +10,7 @@
     "debug": "node --inspect-brk ./node_modules/protractor/bin/protractor e2e/protractor.conf.js",
     "webdriver": "node ./node_modules/protractor/bin/webdriver-manager update",
     "iedriver": "node ./node_modules/protractor/bin/webdriver-manager --ignore_ssl update --ie32",
-	"startiedriver": "node ./node_modules/protractor/bin/webdriver-manager start"
+    "startiedriver": "node ./node_modules/protractor/bin/webdriver-manager start"
   },
   "dependencies": {
     "@types/jasmine": "^2.8.8",

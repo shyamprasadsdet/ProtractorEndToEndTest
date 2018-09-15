@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "EndToEndTests", "EndToEndTests\EndToEndTests.njsproj", "{1F547BA6-5557-4582-924E-65590A2B891A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F547BA6-5557-4582-924E-65590A2B891A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F547BA6-5557-4582-924E-65590A2B891A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F547BA6-5557-4582-924E-65590A2B891A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F547BA6-5557-4582-924E-65590A2B891A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A01160B8-D0A9-4383-9A0A-76FFD73FF634}
+	EndGlobalSection
+EndGlobal

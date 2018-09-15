@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="1" time="1.146">
+ <testsuite name="Search:" timestamp="2018-09-15T20:46:23" hostname="localhost" time="1.146" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="Search:" name="Search for Given Text" time="1.14">
+   <failure type="exception" message="Failed: Currently focused window has been closed.
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[NoSuchWindowError: Currently focused window has been closed.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, waitTagLoader))
+    at thenableWebDriverProxy.schedule (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: <anonymous>
+    at pollCondition (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at CommonComponent.waitForSpinnerDisappear (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\e2e\src\common\common.component.ts:31:13)
+    at UserContext.<anonymous> (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\e2e\src\module2\google.e2e-spec.ts:16:15)
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+From: Task: Run it("Search for Given Text") in control flow
+    at UserContext.<anonymous> (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\e2e\src\module2\google.e2e-spec.ts:15:5)
+    at addSpecsToSuite (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\e2e\src\module2\google.e2e-spec.ts:6:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\Ganesh.Hegde\Desktop\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

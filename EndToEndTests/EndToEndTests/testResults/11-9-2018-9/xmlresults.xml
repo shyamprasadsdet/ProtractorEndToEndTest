@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="1" errors="0" failures="25" tests="26" time="73.302">
+ <testsuite name="IKEA competitors page and price comparison tool:" timestamp="2018-09-11T15:17:02" hostname="localhost" time="32.141" errors="0" tests="3" skipped="0" disabled="0" failures="3">
+  <testcase classname="IKEA competitors page and price comparison tool:" name="should navigate to COMPETITORS page and grid will be loaded" time="31.85">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:18:48)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("should navigate to COMPETITORS page and grid will be loaded") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:15:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:6:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA competitors page and price comparison tool:" name="The user must be able to visually see the % price range for each HFB grouped by competitor" time="0.144">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:36:48)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("The user must be able to visually see the % price range for each HFB grouped by competitor") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:33:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:6:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA competitors page and price comparison tool:" name="The user must be able to visually see the % growth for each HFB grouped by competitor" time="0.145">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:49:48)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("The user must be able to visually see the % growth for each HFB grouped by competitor") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:46:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\competitors-page\competitors-page.e2e-spec.ts:6:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Filters:" timestamp="2018-09-11T15:17:34" hostname="localhost" time="6.812" errors="0" tests="7" skipped="0" disabled="0" failures="7">
+  <testcase classname="Filters:" name="Should have filters in HFBs" time="0.149">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-hfbs&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-hfbs"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:20:33)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Should have filters in HFBs") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:18:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Filters:" name="Should have filters in Products" time="0.15">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-skus&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-skus"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:27:41)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Should have filters in Products") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:25:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Filters:" name="Should have filters in Competitor" time="0.149">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:34:46)
+    at step (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:32:23)
+    at Object.next (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:13:53)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:7:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:3:12)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:32:45)
+From: Task: Run it("Should have filters in Competitor") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:32:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Filters:" name="Should display data in Grid For Competitors Filter" time="4.115">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:41:39)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Should display data in Grid For Competitors Filter") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:39:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Filters:" name="Should display data in Grid For HFB Filter" time="0.74">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-hfbs&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-hfbs"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:53:26)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Should display data in Grid For HFB Filter") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:51:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Filters:" name="Should display data in Grid For Geographies Filter" time="0.83">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:65:39)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Should display data in Grid For Geographies Filter") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:63:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Filters:" name="Should display data in Grid For Match Type Filter" time="0.673">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-competitors&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-competitors"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:78:39)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Should display data in Grid For Match Type Filter") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:76:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\filters\filter-feature.e2e-spec.ts:9:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="IKEA hfbs page and price comparison tool:" timestamp="2018-09-11T15:17:41" hostname="localhost" time="0.567" errors="0" tests="3" skipped="0" disabled="0" failures="3">
+  <testcase classname="IKEA hfbs page and price comparison tool:" name="should navigate to HFBs page and grid will be loaded" time="0.184">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-hfbs&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-hfbs"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:18:33)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("should navigate to HFBs page and grid will be loaded") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:16:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:7:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA hfbs page and price comparison tool:" name="should navigate to HFBs page and charts must be present" time="0.193">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tab-home-hfbs&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tab-home-hfbs"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:36:26)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("should navigate to HFBs page and charts must be present") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:34:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:7:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA hfbs page and price comparison tool:" name="should display table view in grid on click of table-view button on HFBs by Competitors page" time="0.185">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;tableView&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="tableView"])
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:45:41)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("should display table view in grid on click of table-view button on HFBs by Competitors page") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:43:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\hfbs-page\hfbs-page.e2e-spec.ts:7:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="IKEA home page will be loaded successfully:" timestamp="2018-09-11T15:17:41" hostname="localhost" time="0.281" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="IKEA home page will be loaded successfully:" name="Home page will load all tabs Overview,HFBs,Competitors,Products,Ikea Logo,Emi Logo" time="0.187">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, .e-ikea-logo.e-state-active)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, .e-ikea-logo.e-state-active)
+    at elementArrayFinder.getWebElements.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\home-page\home-page.e2e-spec.ts:22:37)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Home page will load all tabs Overview,HFBs,Competitors,Products,Ikea Logo,Emi Logo") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\home-page\home-page.e2e-spec.ts:20:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\home-page\home-page.e2e-spec.ts:11:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA home page will be loaded successfully:" name="User will be logged out successfully" time="0.084" />
+ </testsuite>
+ <testsuite name="IKEA Login page Validation" timestamp="2018-09-11T15:17:41" hostname="localhost" time="0.784" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="IKEA Login page Validation" name="When the User enters incorrect credentials, then the user must be notified about the incorrect credentials entered" time="0.783">
+   <failure type="toEqual" message="Expected &apos;&apos; to equal &apos;Username or password is incorrect&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\login-page\login-page.e2e-spec.ts:21:46)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="IKEA overview page and price comparison tool:" timestamp="2018-09-11T15:17:42" hostname="localhost" time="29.426" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="IKEA overview page and price comparison tool:" name="should navigate to OVERVIEW page and Comparison by HFBs grid will be load as default" time="18.942" />
+  <testcase classname="IKEA overview page and price comparison tool:" name="should display table view in grid on click of table-view button on Comparison by HFBs page" time="0.348" />
+  <testcase classname="IKEA overview page and price comparison tool:" name="should navigate to Comparision By Competitors page and grid will be loaded" time="9.586" />
+  <testcase classname="IKEA overview page and price comparison tool:" name="should display table view in grid on click of table-view button on Comparison by Competitors page" time="0.54" />
+ </testsuite>
+ <testsuite name="Product Comparison" timestamp="2018-09-11T15:18:12" hostname="localhost" time="0" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+  <testcase classname="Product Comparison" name="Should navigate to Specific product Page and Verify loaded or not" time="0">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="IKEA competitors page and price comparison tool:" timestamp="2018-09-11T15:18:12" hostname="localhost" time="1.524" errors="0" tests="1" skipped="0" disabled="0" failures="1">
+  <testcase classname="IKEA competitors page and price comparison tool:" name="should navigate to PRODUCTS page and grid will be loaded" time="1.516">
+   <failure type="exception" message="Failed: Browsing context has been discarded
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[NoSuchWindowError: Browsing context has been discarded
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, app-loader))
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous>
+    at Timeout.pollCondition [as _onTimeout] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+From: Task: <anonymous wait>
+    at scheduleWait (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at CommonComponent.waitForSpinnerDisappear (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\common\common.component.ts:41:13)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\products-page\products-page.e2e-spec.ts:19:15)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+From: Task: Run it("should navigate to PRODUCTS page and grid will be loaded") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\products-page\products-page.e2e-spec.ts:15:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\products-page\products-page.e2e-spec.ts:6:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Forgot Password:" timestamp="2018-09-11T15:18:13" hostname="localhost" time="0.919" errors="0" tests="1" skipped="0" disabled="0" failures="3">
+  <testcase classname="Forgot Password:" name="Should show Forgot Password page" time="0.912">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\protractor.conf.js:82:21
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: Failed to decode response from marionette
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[WebDriverError: Failed to decode response from marionette
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.getCurrentUrl()
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.getCurrentUrl (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:993:17)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Run beforeEach in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\forgotPassword-page.e2e-spec.ts:12:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\forgotPassword-page.e2e-spec.ts:7:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.navigate().to(http://qa-we.webapps.ikea.euromonitor.local/ikeaui)
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Navigation.to (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1133:25)
+    at thenableWebDriverProxy.get (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:988:28)
+    at ProtractorBrowser.get (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:655:32)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\forgotPassword-page.e2e-spec.ts:18:15)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("Should show Forgot Password page") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\forgotPassword-page.e2e-spec.ts:17:6)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\forgotPassword-page.e2e-spec.ts:7:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="IKEA Register page validation:" timestamp="2018-09-11T15:18:14" hostname="localhost" time="0.848" errors="0" tests="3" skipped="0" disabled="0" failures="6">
+  <testcase classname="IKEA Register page validation:" name="Register Link should be visible" time="0.287">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\protractor.conf.js:82:21
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, app-loader))
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: <anonymous>
+    at pollCondition (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: <anonymous wait>
+    at scheduleWait (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at thenableWebDriverProxy.wait (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as wait] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at CommonComponent.waitForSpinnerDisappear (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\common\common.component.ts:41:13)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:20:15)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+From: Task: Run it("Register Link should be visible") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:18:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:8:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA Register page validation:" name="Register Page should be visible" time="0.255">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\protractor.conf.js:82:21
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, *[id="lnk-login-register"]))
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:25:35)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Register Page should be visible") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:24:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:8:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="IKEA Register page validation:" name="Only valid Domain" time="0.294">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.takeScreenshot (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\browser.js:67:16)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\protractor.conf.js:82:21
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:13:22.693Z&apos;
+System info: host: &apos;INDBANL274&apos;, ip: &apos;192.168.148.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: driver.version: unknown"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'INDBANL274', ip: '192.168.148.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+    at Object.checkLegacyResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at doSend.then.response (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, *[id="lnk-login-register"]))
+    at thenableWebDriverProxy.schedule (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElements (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:33:35)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("Only valid Domain") in control flow
+    at UserContext.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:32:5)
+    at addSpecsToSuite (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\IKEA\Source\EndToEndTests\EndToEndTests\e2e\src\register-page\register-page.e2e-spec.ts:8:1)
+    at Module._compile (module.js:652:30)
+    at Module.m._compile (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:439:23)
+    at Module._extensions..js (module.js:663:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\IKEA\Source\EndToEndTests\EndToEndTests\node_modules\ts-node\src\index.ts:442:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
