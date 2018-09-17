@@ -1,6 +1,6 @@
 # Protractor Typescript End to End Testing Framework
 
-Framework supports Typescript and javascript. all the tools which are need to integrate with CI/CD are incorporated
+Framework supports Typescript and javascript. CI/CD Ready
 
 # Features
 
