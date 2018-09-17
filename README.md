@@ -74,4 +74,4 @@ Framework supports Typescript and javascript. all the tools which are need to in
 
 #https://www.linkedin.com/in/ganeshsirsi/
 
--Saptmi Technologies
+--Saptami
