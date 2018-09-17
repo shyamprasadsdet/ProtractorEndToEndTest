@@ -46,7 +46,7 @@ Framework supports Typescript and javascript. all the tools which are need to in
 
 ## TFS/ Azure DevOps integration with Protractor end to end test Help
 
-# View Detailed Story on Medium https://medium.com/@gsirsi/protractor-end-to-end-tests-configure-on-ci-cd-tfs-vsts-azure-devops-publish-html-results-9143846f579f
+### https://medium.com/@ganeshsirsi/protractor-end-to-end-tests-configure-on-ci-cd-tfs-vsts-azure-devops-publish-html-results-9143846f579f
 
 1. Create a task for npm install
 ![
@@ -70,9 +70,9 @@ Framework supports Typescript and javascript. all the tools which are need to in
 ](https://c1.staticflickr.com/2/1861/42886910980_eb7f0309c6_b.jpg)
 
 
-# View Detailed Story on Medium https://medium.com/@gsirsi/protractor-end-to-end-tests-configure-on-ci-cd-tfs-vsts-azure-devops-publish-html-results-9143846f579f
+### https://medium.com/@ganeshsirsi/protractor-end-to-end-tests-configure-on-ci-cd-tfs-vsts-azure-devops-publish-html-results-9143846f579f
 
-# https://www.linkedin.com/in/ganeshsirsi/
+### https://www.linkedin.com/in/ganeshsirsi/
 
 
 
